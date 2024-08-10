@@ -1,0 +1,2 @@
+SELECT * FROM Users
+WHERE CreateDate >= DATEADD(DAY, -30, GETDATE());
